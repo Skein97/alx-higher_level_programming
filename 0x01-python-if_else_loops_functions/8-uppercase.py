@@ -5,5 +5,5 @@ def uppercase(str):
             num = 32
         else:
             num = 0
-        print(f"{(ord(str[i]) - num):c}", end='')
+        print("{:c}".format(ord(str[i]) - num), end='')
     return pass
