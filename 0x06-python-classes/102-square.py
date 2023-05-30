@@ -1,23 +1,40 @@
 #!/usr/bin/python3
+
+"""Defines a class Square.
+"""
+
+
 class Square:
     """ A class that defines a square by its size
     """
     def __eq__(self, other):
+        """Method that checks equality
+        """
         return self.__size == other.__size
 
     def __lt__(self, other):
+        """Method that checks less than
+        """
         return self.__size < other.__size
 
     def __le__(self, other):
+        """Method that checks less than or equal to
+        """
         return self.__size <= other.__size
 
     def __ne__(self, other):
+        """Method that checks not equal to
+        """
         return self.__size != other.__size
 
     def __gt__(self, other):
+        """Method that checks greater than
+        """
         return self.__size > other.__size
 
     def __ge__(self, other):
+        """Method that checks greater than or equal to
+        """
         return self.__size >= other.__size
 
     def __init__(self, size=0):
