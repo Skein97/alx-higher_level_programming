@@ -4,6 +4,7 @@ import math
 """Define MagicClass
 """
 
+
 class MagicClass:
 
     """Class that stores the properties
