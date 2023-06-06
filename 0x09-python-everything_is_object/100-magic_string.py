@@ -1,4 +1,9 @@
 #!/usr/bin/python3
-def magic_string(l=[]):
-    l += ["Holberton"]
-    return ", ".join(l)
+
+"""Module for magic_string function"""
+
+
+def magic_string(my_list=[]):
+    """returns “BestSchool” n times the number of the iteration"""
+    my_list += ["BestSchool"]
+    return ", ".join(my_list)
